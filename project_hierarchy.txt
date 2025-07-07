@@ -1,0 +1,28 @@
+project/
+├── process/               	        # Folder where main scripts
+│	├── main.py                     # Main execution script
+│	├── predict_crop.py             # Runs YOLOv5 to detect and crop license plate
+│	├── main_char.py                # Handles segmentation of characters
+│	├── segment_characters.py       # Image preprocessing and segmentation
+│	├── find_contours.py            # Filters and extracts characters from contours
+│	├── detect_char.py              # Loads trained model and predicts characters
+│
+├── gui.py            			# Graphic Interface
+├── gui2.py            			# Graphic Interface v2 (best one)
+│
+├── char_model/
+│       └── char_model_1.h5                 # Trained CNN model for character classification
+│
+├── cropped_plates/                     # Auto-created folder for cropped license plate images
+│
+├── char/                               # Folder where segmented characters are saved
+│ 
+├── test_images/                        # Folder where test input images are stored
+│
+├── yolov5_model/
+│        └── best.pt	                        # Trained Yolo model for Plates detection
+│ 
+├── predictions.txt         	        # (Created at runtime) stores predicted license plate strings
+│ 
+├── json_plates/                        # Folder where plates numbers saved
+│

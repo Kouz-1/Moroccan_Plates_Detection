@@ -1,0 +1,15 @@
+# Core dependencies
+numpy
+opencv-python
+matplotlib
+Pillow
+python3-tk  # Provides tkinter, filedialog, ttk, messagebox
+
+# Deep learning (model loading + prediction)
+tensorflow
+keras
+torch
+torchvision
+
+# Optional (for displaying warnings or advanced visualizations)
+scipy
