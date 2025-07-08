@@ -28,6 +28,7 @@ Step-by-Step Pipeline
 1. Acquisition de l’image ou du flux vidéo
 
 The system takes input either as a static image or a live video stream from a camera. This step captures the raw data for processing.
+
 ![image](https://github.com/user-attachments/assets/5e8ca6f7-0710-4272-bd4e-97e00c039551)
 
 
