@@ -1,5 +1,4 @@
-import pathlib
-pathlib.PosixPath = pathlib.WindowsPath
+
 
 import cv2
 import time

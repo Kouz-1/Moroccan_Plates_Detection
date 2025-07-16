@@ -3,13 +3,16 @@ numpy
 opencv-python
 matplotlib
 Pillow
-python3-tk  # Provides tkinter, filedialog, ttk, messagebox
+seaborn
+mysql-connector-python
 
 # Deep learning (model loading + prediction)
 tensorflow
 keras
 torch
 torchvision
+ultralytics
 
 # Optional (for displaying warnings or advanced visualizations)
 scipy
+

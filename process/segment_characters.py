@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-from find_contours import find_contours
+from process.find_contours import find_contours
 
 
 # Find characters in the resulting images

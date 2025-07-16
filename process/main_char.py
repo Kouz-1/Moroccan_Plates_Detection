@@ -1,12 +1,12 @@
 import cv2
 import os
 import glob
-from segment_characters import segment_characters
+from process.segment_characters import segment_characters
 from tensorflow.keras.models import load_model
 import numpy as np
 from tensorflow.keras.preprocessing import image
-from detect_char import predict_char
-from save_plate_json import save_plate_to_json
+from process.detect_char import predict_char
+from process.save_plate_json import save_plate_to_json
 
 # Define output folders
 cropped_plate_folder = 'cropped_plates'

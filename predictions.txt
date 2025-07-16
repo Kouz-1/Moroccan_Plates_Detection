@@ -1,0 +1,4 @@
+Character 0: 4
+Character 1: 3
+Character 2: 8
+Character 3: 3

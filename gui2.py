@@ -27,7 +27,7 @@ class PlateDetectorApp:
         self.setup_ui()
 
     def check_status(self):
-        from check_plate_status import check_plate_status
+        from process.check_plate_status import check_plate_status
         result = check_plate_status()
         messagebox.showinfo("Plate Status", result)
 
@@ -49,7 +49,7 @@ class PlateDetectorApp:
         ttk.Button(left_frame, text="Start Detection", width=20, command=self.run_detection).pack(pady=15)
         ttk.Button(left_frame, text="Close Camera", width=20, command=self.close_camera).pack(pady=5)
         ttk.Button(left_frame, text="Check Status", width=20, command=self.check_status).pack(pady=5)
-        from vehicle_manager import show_vehicle_admin_window
+        from process.vehicle_manager import show_vehicle_admin_window
         ttk.Button(left_frame, text="Manage Vehicles", width=20, command=show_vehicle_admin_window).pack(pady=5)
 
         ttk.Button(left_frame, text="Exit", width=20, command=self.root.quit).pack(pady=20)
@@ -155,7 +155,7 @@ class PlateDetectorApp:
 
         plate_info = self.get_last_plate_info()
         self.result_text.config(text=plate_info)
-        from store_plate_to_mysql import store_plate_to_mysql
+        from process.store_plate_to_mysql import store_plate_to_mysql
         store_plate_to_mysql()
 
 

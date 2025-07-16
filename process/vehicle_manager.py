@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import mysql.connector
-from check_plate_status import check_plate_status
+from process.check_plate_status import check_plate_status
 
 MYSQL_CONFIG = {
     'host': 'localhost',

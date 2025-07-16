@@ -5,7 +5,7 @@ import threading
 import json
 import os
 import cv2
-from main import process_image, process_video, process_live_feed
+from process.main import process_image, process_video, process_live_feed
 
 def get_last_plate_info(json_path='json_plates/plates.json'):
     if not os.path.exists(json_path):

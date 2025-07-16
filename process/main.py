@@ -1,8 +1,8 @@
 import time
 import os
 import cv2
-from predict_crop import crop_license_plate
-from main_char import process_plate
+from process.predict_crop import crop_license_plate
+from process.main_char import process_plate
 
 def process_image(image_path):
     """Process a single image: Detect license plate, crop, and extract OCR."""
