@@ -76,11 +76,17 @@ The system includes a user-friendly GUI built with Tkinter, allowing users to in
 GUI Options :
 
 Load Image	: Load a static image from your computer for plate detection.
+
 Load Video	: Select a video file containing a vehicle for processing.
+
 Open Camera	: Launch your webcam or external camera to capture real-time video.
+
 Start Detection	: Run the YOLOv5 model on the selected image, video, or live camera feed.
+
 Close Camera : Stop the webcam feed and release the video stream.
+
 Check Status : After plate recognition, this button checks if the plate is legal or listed in a database. It displays a status message (e.g., "ENFREINT DE LOIX" = Violates the law).
+
 Exit : Close the application.
 
 
